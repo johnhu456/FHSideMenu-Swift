@@ -121,7 +121,7 @@ class ContainViewController: UIViewController {
             return
         }
         else if newCenter.x - width/2 > width - sideWidth + springWidth {
-            return
+            return;
         }
         else
         {
